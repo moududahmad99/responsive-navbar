@@ -16,21 +16,196 @@
     color: rgb(235, 220, 220) !important;
     margin-left: 12px;
   }
+
+  .navbarNav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #27292b;
+    width: 300px;
+    padding-top: 20px;
+    z-index: 1;
+    border: thin solid rgb(153, 152, 152);
+    width: 70%;
+  }
+
+  .navbarNav ul li:hover > ul {
+    display: block;
+    margin-left: 80px;
+  }
+
+  .navbar-toggler  {
+    color: aliceblue;
+    margin-left: auto;
+    border: none;
+    font-size: 30px;
+
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none ;
+  }
+
+  .navbarNav ul li ul li {
+    text-decoration: none;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .navbarNav ul li ul {
+    margin-left: 30px;
+  }
+
+  .navbarNav ul li ul .nav-link:hover {
+    margin-left: 4px !important;
+  }
+
+  .navbarNav ul li ul li a {
+    text-decoration: none;
+  }
 }
 /* Extra Small Area End*/
 
 /* Small Area Start */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-item {
+        margin-top: 15px;
+      }
+      .nav-link {
+        padding: 10px 0;
+        font-size: 16px !important;
+      }
+    
+      .nav-link::after {
+        display: none;
+      }
+    
+      .nav-link:hover {
+        color: rgb(235, 220, 220) !important;
+        margin-left: 12px;
+      }
+    
+      .navbarNav ul li ul {
+        display: none;
+        position: absolute;
+        background-color: #27292b;
+        width: 300px;
+        padding-top: 20px;
+        z-index: 1;
+        border: thin solid rgb(153, 152, 152);
+        width: 70%;
+      }
+    
+      .navbarNav ul li:hover > ul {
+        display: block;
+        margin-left: 80px;
+      }
+    
+      .navbar-toggler  {
+        color: aliceblue;
+        margin-left: auto;
+        border: none;
+        font-size: 30px;
+      }
+    
+      .navbar-toggler:focus {
+        box-shadow: none ;
+      }
+    
+      .navbarNav ul li ul li {
+        text-decoration: none;
+        width: 80%;
+        height: 50px;
+        text-align: center;
+        margin-left: 0px;
+      }
+    
+      .navbarNav ul li ul {
+        margin-left: 30px;
+      }
+    
+      .navbarNav ul li ul .nav-link:hover {
+        margin-left: 4px !important;
+      }
+    
+      .navbarNav ul li ul li a {
+        text-decoration: none;
+      }
+    
 }
 /* Small Area End */
 
 /* Medium Area Start */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .nav-item {
+        margin-top: 15px;
+      }
+      .nav-link {
+        padding: 10px 0;
+        font-size: 16px !important;
+      }
+    
+      .nav-link::after {
+        display: none;
+      }
+    
+      .nav-link:hover {
+        color: rgb(235, 220, 220) !important;
+        margin-left: 12px;
+      }
+    
+      .navbarNav ul li ul {
+        display: none;
+        position: absolute;
+        background-color: #27292b;
+        width: 300px;
+        padding-top: 20px;
+        z-index: 1;
+        border: thin solid rgb(153, 152, 152);
+        width: 70%;
+      }
+    
+      .navbarNav ul li:hover > ul {
+        display: block;
+        margin-left: 80px;
+      }
+    
+      .navbar-toggler {
+        color: aliceblue;
+        margin-left: auto;
+        border: none;
+        font-size: 30px;
+      }
+    
+      .navbar-toggler:focus {
+        box-shadow: none ;
+      }
+    
+      .navbarNav ul li ul li {
+        text-decoration: none;
+        width: 40%;
+        height: 50px;
+        text-align: center;
+        margin-left: 0px;
+      }
+    
+      .navbarNav ul li ul {
+        margin-left: 30px;
+      }
+    
+      .navbarNav ul li ul .nav-link:hover {
+        margin-left: 8px !important;
+      }
+    
+      .navbarNav ul li ul li a {
+        text-decoration: none;
+      }
 }
 /* Medium Area Start */
 
 /* Large Area Start */
-@media (min-width: 768px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
   /* Navbar Area Start */
   .nav-link {
     margin: 0 0.9vw;
